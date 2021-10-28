@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  width: 100%;
+  background-color: #101212;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.menu ul {
+  list-style: none;
+  margin-top: 2%;
+}
+.menu ul li {
+  background-color: #101212;
+  color: white;
+  width: 150px;
+  border: 1px solid #080077;
+  border-radius: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  font-size: 15px;
+  position: relative;
+  font-family: "Gill Sans", sans-serif;
+  margin: 3pt;
+}
+.menu img {
+  /* border: 1px solid red; */
+  height: 120px;
+}
+
+/* hover é a propriedade que quando passar o mouse por cima irá mudar a cor */
+.menu ul li:hover {
+  background-color: #080077;
+}
+.menu ul ul {
+  display: none;
+  margin: 0;
+}
+.menu ul li:hover > ul {
+  display: block;
+}
+.menu ul ul ul {
+  margin-left: 170px;
+  top: 0px;
+  position: absolute;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menu ul li li {
+  margin: 0px;
+}
+#apresentacao section img {
+  margin: 10pt;
+  margin-top: 20pt;
+}
+#apresentacao section h2 {
+  float: right;
+  margin-right: 180pt;
+  margin-top: 20pt;
+}
+#apresentacao section p {
+  float: right;
+}
