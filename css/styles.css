@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  background-color: rgb(32, 32, 32);
+}
+
 .menu {
   width: 100%;
   background-color: #101212;
@@ -58,15 +62,138 @@
 .menu ul li li {
   margin: 0px;
 }
+#apresentacao {
+  background-color: rgb(32, 32, 32);
+  padding-bottom: 40px;
+}
 #apresentacao section img {
   margin: 10pt;
   margin-top: 20pt;
+  width: 550px;
 }
 #apresentacao section h2 {
+  color: aliceblue;
   float: right;
   margin-right: 180pt;
   margin-top: 20pt;
+  border: 1px solid green;
 }
 #apresentacao section p {
   float: right;
+  border: 1px solid red;
+  width: 500px;
+  color: aliceblue;
+}
+#banner1 {
+  height: 400px;
+  background-image: url("../img/controledeconsole.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: rgb(32, 32, 32);
+}
+#proddestaque {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(32, 32, 32);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#proddestaque2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(32, 32, 32);
+  text-align: center;
+  padding-bottom: 20px;
+}
+#txtprodestaque {
+  margin-top: 40px;
+  margin-left: 30px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+#proddestaque .prod1,
+.prod2,
+.prod3,
+.prod4 {
+  margin-right: 100px;
+}
+#proddestaque2 .prod1,
+.prod2,
+.prod3,
+.prod4 {
+  margin-right: 100px;
+}
+#proddestaque .prod1 img {
+  width: 150px;
+  background-color: white;
+}
+#proddestaque .prod2 img {
+  width: 150px;
+}
+#proddestaque .prod3 img {
+  width: 150px;
+}
+#proddestaque .prod4 img {
+  width: 190px;
+}
+#proddestaque2 .prod1 img {
+  width: 150px;
+}
+#proddestaque2 .prod2 img {
+  width: 150px;
+}
+#proddestaque2 .prod3 img {
+  width: 150px;
+  background-color: white;
+}
+#proddestaque2 .prod4 img {
+  width: 150px;
+}
+#proddestaque .prod1 p {
+  color: white;
+}
+#proddestaque .prod2 p {
+  color: white;
+}
+#proddestaque .prod3 p {
+  color: white;
+}
+#proddestaque .prod4 p {
+  color: white;
+}
+#proddestaque2 .prod1 p {
+  color: white;
+}
+#proddestaque2 .prod2 p {
+  color: white;
+}
+#proddestaque2 .prod3 p {
+  color: white;
+}
+#proddestaque2 .prod4 p {
+  color: white;
+}
+#banner2 {
+  height: 500px;
+  background-image: url("../img/pcgamer2.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+#clientes h2 {
+  margin-left: 50px;
+  margin-top: 45px;
+  color: white;
+}
+#clientes .cliente1 img {
+  width: 200px;
+  height: 190px;
+  border-radius: 100%;
+  padding-top: 100px;
 }
