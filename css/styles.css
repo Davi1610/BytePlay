@@ -66,23 +66,24 @@ main {
   background-color: rgb(32, 32, 32);
   padding-bottom: 40px;
 }
-#apresentacao section img {
+#apresentacao img {
   margin: 10pt;
   margin-top: 20pt;
   width: 550px;
 }
-#apresentacao section h2 {
+#apresentacao h2 {
   color: aliceblue;
   float: right;
   margin-right: 180pt;
   margin-top: 20pt;
   border: 1px solid green;
 }
-#apresentacao section p {
+#apresentacao p {
   float: right;
   border: 1px solid red;
   width: 500px;
   color: aliceblue;
+  margin-top: 10px;
 }
 #banner1 {
   height: 400px;
@@ -186,14 +187,92 @@ main {
   background-position: center;
   background-size: 100%;
 }
+#clientes {
+  padding-bottom: 50px;
+}
 #clientes h2 {
   margin-left: 50px;
   margin-top: 45px;
   color: white;
+  padding-bottom: 100px;
 }
 #clientes .cliente1 img {
   width: 200px;
   height: 190px;
-  border-radius: 100%;
-  padding-top: 100px;
+  border-radius: 50%;
+  margin-left: 60px;
+}
+#clientes .cliente1 p {
+  float: right;
+  padding-top: 20px;
+  padding-right: 15px;
+  margin-right: 600px;
+  margin-top: 60px;
+  margin-left: 10px;
+  color: black;
+  /* border: 1px solid red; */
+  background-color: #c6c7c5;
+  text-align: center;
+}
+#clientes .cliente2 img {
+  width: 200px;
+  height: 190px;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-top: 25px;
+}
+#clientes .cliente2 p {
+  float: right;
+  padding-top: 20px;
+  padding-right: 15px;
+  margin-right: 500px;
+  margin-top: 90px;
+  margin-left: 10px;
+  color: black;
+  /* border: 1px solid red; */
+  background-color: #c6c7c5;
+  text-align: center;
+}
+#clientes .cliente3 img {
+  width: 200px;
+  height: 190px;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-top: 25px;
+}
+#clientes .cliente3 p {
+  float: right;
+  padding-top: 20px;
+  padding-right: 1px;
+  margin-right: 365px;
+  margin-top: 90px;
+  margin-left: 10px;
+  width: 700px;
+  color: black;
+  /* border: 1px solid red; */
+  background-color: #c6c7c5;
+  text-align: center;
+}
+#clientes .cliente4 img {
+  width: 200px;
+  height: 190px;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-top: 25px;
+}
+#clientes .cliente4 p {
+  float: right;
+  padding-top: 20px;
+  padding-right: 1px;
+  margin-right: 365px;
+  margin-top: 90px;
+  margin-left: 10px;
+  width: 700px;
+  color: black;
+  /* border: 1px solid red; */
+  background-color: #c6c7c5;
+  text-align: center;
+}
+footer {
+  background-color: black;
 }
