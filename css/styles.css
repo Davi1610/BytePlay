@@ -67,23 +67,31 @@ main {
   padding-bottom: 40px;
 }
 #apresentacao img {
+  float: left;
   margin: 10pt;
   margin-top: 20pt;
   width: 550px;
+}
+/* limpando o float */
+.clear {
+  clear: both;
 }
 #apresentacao h2 {
   color: aliceblue;
   float: right;
   margin-right: 180pt;
   margin-top: 20pt;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 #apresentacao p {
   float: right;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 500px;
   color: aliceblue;
-  margin-top: 10px;
+  margin-top: 60px;
+  text-align: center;
+  margin-right: 150px;
+  text-align: justify;
 }
 #banner1 {
   height: 400px;
@@ -122,12 +130,16 @@ main {
 .prod3,
 .prod4 {
   margin-right: 100px;
+  padding: 10px 10px 10px 15px;
+  background-color: white;
 }
 #proddestaque2 .prod1,
 .prod2,
 .prod3,
 .prod4 {
   margin-right: 100px;
+  padding: 10px 10px 10px 15px;
+  background-color: white;
 }
 #proddestaque .prod1 img {
   width: 150px;
@@ -275,4 +287,131 @@ main {
 }
 footer {
   background-color: black;
+  padding-bottom: 250px;
+}
+#redes {
+  float: right;
+  padding-right: 30px;
+}
+footer #redes a {
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+footer #redes a img {
+  width: 40px; /*Diminuir a largura da imagem*/
+  right: 40px; /*Diminuir a altura da imagem*/
+  margin: 5px; /*Criar um espaço entre uma rede e outra*/
+  transition: ease 0.5s;
+}
+footer #redes a img:hover {
+  /* Realizar uma rotação de 360º na imagem */
+  transform: rotate(360deg);
+}
+#linksnav {
+  float: right;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: 400px;
+  margin-bottom: 10px;
+  /* border: 1px solid white; */
+}
+#linksnav a {
+  display: block;
+  text-decoration: none;
+  color: red;
+}
+#linksnav nav h6 {
+  color: white;
+}
+#end {
+  color: white;
+  padding-top: 100px;
+  margin: 1px solid;
+}
+/* definindo um tamanho para o carousel de imagens */
+.carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+#processadores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(32, 32, 32);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#processadores .prod1,
+.prod2,
+.prod3,
+.prod4 {
+  margin-right: 100px;
+}
+#processadores .prod1 img {
+  width: 150px;
+  background-color: white;
+}
+#processadores .prod2 img {
+  width: 150px;
+}
+#processadores .prod3 img {
+  width: 150px;
+}
+#processadores .prod4 img {
+  width: 150px;
+}
+#processadores .prod1 p {
+  color: black;
+  background-color: darkgray;
+  margin-top: 5px;
+}
+#processadores .prod2 p {
+  color: black;
+  background-color: darkgray;
+  margin-top: 5px;
+}
+#processadores .prod3 p {
+  color: black;
+  background-color: darkgray;
+  margin-top: 5px;
+}
+#processadores .prod4 p {
+  color: black;
+  background-color: darkgray;
+  margin-top: 5px;
+}
+#processadores .prod1 {
+  /* border: 1px solid red; */
+  padding: 10px 10px 10px 15px;
+  background-color: white;
+}
+#processadores .prod2 {
+  /* border: 1px solid red; */
+  padding: 10px 10px 10px 15px;
+  background-color: white;
+}
+#processadores .prod3 {
+  /* border: 1px solid red; */
+  padding: 10px 10px 10px 15px;
+  background-color: white;
+}
+#processadores .prod4 {
+  /* border: 1px solid red; */
+  padding: 10px 10px 10px 15px;
+  background-color: white;
+}
+.txthard {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  margin: 80px 0px 60px 30px;
+  text-decoration: underline blue;
+}
+.txtproc {
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: darkgray;
 }
