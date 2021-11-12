@@ -7,6 +7,7 @@ main {
   background-color: rgb(32, 32, 32);
 }
 
+/*----------Menu------*/
 .menu {
   width: 100%;
   background-color: #101212;
@@ -125,72 +126,19 @@ main {
   background-color: rgb(32, 32, 32);
   color: white;
 }
-#proddestaque .prod1,
-.prod2,
-.prod3,
-.prod4 {
+.prod {
   margin-right: 100px;
   padding: 10px 10px 10px 15px;
   background-color: white;
 }
-#proddestaque2 .prod1,
-.prod2,
-.prod3,
-.prod4 {
-  margin-right: 100px;
-  padding: 10px 10px 10px 15px;
-  background-color: white;
-}
-#proddestaque .prod1 img {
-  width: 150px;
-  background-color: white;
-}
-#proddestaque .prod2 img {
+.prod img {
   width: 150px;
 }
-#proddestaque .prod3 img {
-  width: 150px;
-}
-#proddestaque .prod4 img {
-  width: 190px;
-}
-#proddestaque2 .prod1 img {
-  width: 150px;
-}
-#proddestaque2 .prod2 img {
-  width: 150px;
-}
-#proddestaque2 .prod3 img {
-  width: 150px;
-  background-color: white;
-}
-#proddestaque2 .prod4 img {
-  width: 150px;
-}
-#proddestaque .prod1 p {
+
+.prod p {
   color: white;
 }
-#proddestaque .prod2 p {
-  color: white;
-}
-#proddestaque .prod3 p {
-  color: white;
-}
-#proddestaque .prod4 p {
-  color: white;
-}
-#proddestaque2 .prod1 p {
-  color: white;
-}
-#proddestaque2 .prod2 p {
-  color: white;
-}
-#proddestaque2 .prod3 p {
-  color: white;
-}
-#proddestaque2 .prod4 p {
-  color: white;
-}
+
 #banner2 {
   height: 500px;
   background-image: url("../img/pcgamer2.jfif");
@@ -333,7 +281,14 @@ footer #redes a img:hover {
   width: 80%;
   margin: 0 auto;
 }
-#processadores {
+#processadores,
+#processadores2,
+#pmae,
+#pmae2,
+#pvideo,
+#memoria,
+#fonte,
+#armazenamento {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -342,64 +297,26 @@ footer #redes a img:hover {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-#processadores .prod1,
-.prod2,
-.prod3,
-.prod4 {
+.prod {
   margin-right: 100px;
-}
-#processadores .prod1 img {
-  width: 150px;
-  background-color: white;
-}
-#processadores .prod2 img {
-  width: 150px;
-}
-#processadores .prod3 img {
-  width: 150px;
-}
-#processadores .prod4 img {
-  width: 150px;
-}
-#processadores .prod1 p {
-  color: black;
-  background-color: darkgray;
-  margin-top: 5px;
-}
-#processadores .prod2 p {
-  color: black;
-  background-color: darkgray;
-  margin-top: 5px;
-}
-#processadores .prod3 p {
-  color: black;
-  background-color: darkgray;
-  margin-top: 5px;
-}
-#processadores .prod4 p {
-  color: black;
-  background-color: darkgray;
-  margin-top: 5px;
-}
-#processadores .prod1 {
   /* border: 1px solid red; */
   padding: 10px 10px 10px 15px;
   background-color: white;
 }
-#processadores .prod2 {
+.prod {
+  margin-right: 100px;
   /* border: 1px solid red; */
   padding: 10px 10px 10px 15px;
   background-color: white;
 }
-#processadores .prod3 {
-  /* border: 1px solid red; */
-  padding: 10px 10px 10px 15px;
+.prod img {
+  width: 150px;
   background-color: white;
 }
-#processadores .prod4 {
-  /* border: 1px solid red; */
-  padding: 10px 10px 10px 15px;
-  background-color: white;
+.prod p {
+  color: black;
+  background-color: darkgray;
+  margin-top: 5px;
 }
 .txthard {
   font-size: 30px;
@@ -408,7 +325,7 @@ footer #redes a img:hover {
   margin: 80px 0px 60px 30px;
   text-decoration: underline blue;
 }
-.txtproc {
+.txtprod {
   text-transform: uppercase;
   color: white;
   padding-bottom: 10px;
