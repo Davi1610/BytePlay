@@ -7,7 +7,7 @@ main {
   background-color: rgb(32, 32, 32);
 }
 
-/*----------Menu------*/
+/* ------INICIO DA FORMATAÇÃO DO MENU-------- */
 .menu {
   width: 100%;
   background-color: #101212;
@@ -63,36 +63,18 @@ main {
 .menu ul li li {
   margin: 0px;
 }
-#apresentacao {
-  background-color: rgb(32, 32, 32);
-  padding-bottom: 40px;
+/* ------FIM DA FORMATAÇÃO DO MENU-------- */
+
+/* ------INICIO DA FORMATAÇÃO DA APRESENTAÇÃO------ */
+.apresentacao {
+  padding-top: 60px;
 }
-#apresentacao img {
-  float: left;
-  margin: 10pt;
-  margin-top: 20pt;
-  width: 550px;
-}
-/* limpando o float */
-.clear {
-  clear: both;
-}
-#apresentacao h2 {
-  color: aliceblue;
-  float: right;
-  margin-right: 180pt;
-  margin-top: 20pt;
-  /* border: 1px solid green; */
-}
-#apresentacao p {
-  float: right;
-  /* border: 1px solid red; */
-  width: 500px;
-  color: aliceblue;
-  margin-top: 60px;
+.apresenttxt {
+  color: white;
   text-align: center;
-  margin-right: 150px;
-  text-align: justify;
+}
+.txtapresent {
+  padding-top: 60px;
 }
 #banner1 {
   height: 400px;
@@ -103,42 +85,6 @@ main {
   background-size: 100%;
   background-color: rgb(32, 32, 32);
 }
-#proddestaque {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: rgb(32, 32, 32);
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-#proddestaque2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: rgb(32, 32, 32);
-  text-align: center;
-  padding-bottom: 20px;
-}
-#txtprodestaque {
-  margin-top: 40px;
-  margin-left: 30px;
-  background-color: rgb(32, 32, 32);
-  color: white;
-}
-.prod {
-  margin-right: 100px;
-  padding: 10px 10px 10px 15px;
-  background-color: white;
-}
-.prod img {
-  width: 150px;
-}
-
-.prod p {
-  color: white;
-}
-
 #banner2 {
   height: 500px;
   background-image: url("../img/pcgamer2.jfif");
@@ -147,135 +93,82 @@ main {
   background-position: center;
   background-size: 100%;
 }
-#clientes {
-  padding-bottom: 50px;
+
+/* --------- INICIO DA AREA DE PRODUTOS EM DESTAQUE --------------*/
+
+/* --------- FIM DA AREA DE PRODUTOS EM DESTAQUE --------------*/
+.proddestaque {
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
-#clientes h2 {
-  margin-left: 50px;
-  margin-top: 45px;
+/* --------- INICIO DA AREA DE CLIENTES ----------------- */
+.h2clientes {
   color: white;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  margin-left: 15px;
 }
-#clientes .cliente1 img {
-  width: 200px;
-  height: 190px;
-  border-radius: 50%;
-  margin-left: 60px;
-}
-#clientes .cliente1 p {
-  float: right;
-  padding-top: 20px;
-  padding-right: 15px;
-  margin-right: 600px;
+.cliente {
+  margin-bottom: 30px;
   margin-top: 60px;
-  margin-left: 10px;
-  color: black;
-  /* border: 1px solid red; */
-  background-color: #c6c7c5;
-  text-align: center;
 }
-#clientes .cliente2 img {
+.cliente img {
   width: 200px;
   height: 190px;
   border-radius: 50%;
   margin-left: 60px;
-  margin-top: 25px;
 }
-#clientes .cliente2 p {
-  float: right;
-  padding-top: 20px;
-  padding-right: 15px;
-  margin-right: 500px;
-  margin-top: 90px;
-  margin-left: 10px;
-  color: black;
-  /* border: 1px solid red; */
-  background-color: #c6c7c5;
-  text-align: center;
+.clientep {
+  color: white;
+  padding-top: 80px;
 }
-#clientes .cliente3 img {
-  width: 200px;
-  height: 190px;
-  border-radius: 50%;
-  margin-left: 60px;
-  margin-top: 25px;
-}
-#clientes .cliente3 p {
-  float: right;
-  padding-top: 20px;
-  padding-right: 1px;
-  margin-right: 365px;
-  margin-top: 90px;
-  margin-left: 10px;
-  width: 700px;
-  color: black;
-  /* border: 1px solid red; */
-  background-color: #c6c7c5;
-  text-align: center;
-}
-#clientes .cliente4 img {
-  width: 200px;
-  height: 190px;
-  border-radius: 50%;
-  margin-left: 60px;
-  margin-top: 25px;
-}
-#clientes .cliente4 p {
-  float: right;
-  padding-top: 20px;
-  padding-right: 1px;
-  margin-right: 365px;
-  margin-top: 90px;
-  margin-left: 10px;
-  width: 700px;
-  color: black;
-  /* border: 1px solid red; */
-  background-color: #c6c7c5;
-  text-align: center;
-}
-footer {
+/* --------- FIM DA AREA DE CLIENTES ----------------- */
+
+/* --------- INICIO DA FORMATAÇÃO DO RODAPÉ ------------- */
+.rodape {
+  padding: 50px 50px 0;
   background-color: black;
-  padding-bottom: 250px;
 }
-#redes {
-  float: right;
-  padding-right: 30px;
+
+.rodape .info-contato p {
+  margin: 0px;
+  color: #fff;
 }
-footer #redes a {
+
+.rodape a {
   text-decoration: none;
-  margin-bottom: 100px;
+  color: #fff;
+  font-size: 13px;
 }
-footer #redes a img {
+.rodape a br {
+  color: #fff;
+}
+.rodape a:hover {
+  font-weight: bold;
+}
+
+.rodape .redes-sociais {
+  display: inline-block;
+}
+
+.rodape .redes-sociais img {
   width: 40px; /*Diminuir a largura da imagem*/
   right: 40px; /*Diminuir a altura da imagem*/
   margin: 5px; /*Criar um espaço entre uma rede e outra*/
   transition: ease 0.5s;
 }
-footer #redes a img:hover {
+.rodape .redes-sociais img:hover {
   /* Realizar uma rotação de 360º na imagem */
   transform: rotate(360deg);
 }
-#linksnav {
-  float: right;
-  padding-right: 50px;
-  padding-left: 50px;
-  margin-right: 400px;
-  margin-bottom: 10px;
-  /* border: 1px solid white; */
-}
-#linksnav a {
-  display: block;
-  text-decoration: none;
-  color: red;
-}
-#linksnav nav h6 {
+
+.rodape p.direitos {
+  text-align: center;
+  margin-top: 40px;
   color: white;
 }
-#end {
-  color: white;
-  padding-top: 100px;
-  margin: 1px solid;
-}
+/* --------- FIM DA FORMATAÇÃO DO RODAPÉ -------------- */
+
+/* ---------INICIO DA FORMATAÇÃO DA PÁGINA HARDWARE --------- */
 /* definindo um tamanho para o carousel de imagens */
 .carousel {
   width: 80%;
@@ -322,7 +215,7 @@ footer #redes a img:hover {
   font-size: 30px;
   text-transform: uppercase;
   color: white;
-  margin: 80px 0px 60px 30px;
+  margin: 80px 0px 80px 30px;
   text-decoration: underline blue;
 }
 .txtprod {
@@ -332,3 +225,79 @@ footer #redes a img:hover {
   text-align: center;
   background-color: darkgray;
 }
+
+/* --------- FIM DA FORMATAÇÃO DA PÁGINA HARDWARE ---------*/
+
+/* ------- PÁGINA DE CONTATO ----------- */
+form {
+  border: 1px solid white;
+  width: 500px;
+  background-color: rgb(32, 32, 32);
+
+  /* Para alinhar o formulário ao centro é só 
+utlizar o comando margin-left como auto e o comando
+margin-right como auto */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+/* Vamos fazer a formatação dos elementos do formulário
+capturando todos os seus respectivos tipos, veja abaixo:*/
+input[type="text"],
+input[type="email"],
+form span,
+textarea {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Arial";
+  font-size: 10pt;
+}
+select {
+  margin: 5px;
+}
+textarea {
+  height: 200px;
+}
+input[type="submit"] {
+  width: 120px;
+  height: 60px;
+  background-color: green;
+  margin-top: 8px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  display: block;
+}
+span {
+  color: white;
+}
+main #mapa iframe {
+  margin-left: 100px;
+  width: 90%;
+  height: 600px;
+  margin-bottom: 60px;
+}
+.txtcon {
+  padding-top: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0px 0px 80px 30px;
+  text-decoration: underline blue;
+}
+/* FIM DA FORMATAÇÃO DA PÁGINA CONTATO */
+
+/* INICIO DA FORMATAÇÃO DA PÁGINA SOBRE */
+.txtsobre {
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+}
+
+/* FIM DA FORMATÇÃO DA PÁGINA SOBRE */
